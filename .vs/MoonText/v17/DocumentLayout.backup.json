@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\moon-text\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7B5A89-0663-4C88-8DE4-1D84BC6AE9B4}|MoonText.csproj|d:\\moon-text\\moontext\\moontextpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7B5A89-0663-4C88-8DE4-1D84BC6AE9B4}|MoonText.csproj|solutionrelative:moontext\\moontextpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7B5A89-0663-4C88-8DE4-1D84BC6AE9B4}|MoonText.csproj|d:\\moon-text\\moontext\\moontextpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7B5A89-0663-4C88-8DE4-1D84BC6AE9B4}|MoonText.csproj|solutionrelative:moontext\\moontextpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7B5A89-0663-4C88-8DE4-1D84BC6AE9B4}|MoonText.csproj|d:\\moon-text\\moontext\\moontextdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7B5A89-0663-4C88-8DE4-1D84BC6AE9B4}|MoonText.csproj|solutionrelative:moontext\\moontextdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7B5A89-0663-4C88-8DE4-1D84BC6AE9B4}|MoonText.csproj|d:\\moon-text\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7B5A89-0663-4C88-8DE4-1D84BC6AE9B4}|MoonText.csproj|solutionrelative:mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7B5A89-0663-4C88-8DE4-1D84BC6AE9B4}|MoonText.csproj|d:\\moon-text\\moontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E7B5A89-0663-4C88-8DE4-1D84BC6AE9B4}|MoonText.csproj|solutionrelative:moontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoonTextPool.cs",
+              "DocumentMoniker": "D:\\moon-text\\MoonText\\MoonTextPool.cs",
+              "RelativeDocumentMoniker": "MoonText\\MoonTextPool.cs",
+              "ToolTip": "D:\\moon-text\\MoonText\\MoonTextPool.cs",
+              "RelativeToolTip": "MoonText\\MoonTextPool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T18:36:12.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoonTextPatch.cs",
+              "DocumentMoniker": "D:\\moon-text\\MoonText\\MoonTextPatch.cs",
+              "RelativeDocumentMoniker": "MoonText\\MoonTextPatch.cs",
+              "ToolTip": "D:\\moon-text\\MoonText\\MoonTextPatch.cs",
+              "RelativeToolTip": "MoonText\\MoonTextPatch.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAuwLUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T18:35:59.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoonTextData.cs",
+              "DocumentMoniker": "D:\\moon-text\\MoonText\\MoonTextData.cs",
+              "RelativeDocumentMoniker": "MoonText\\MoonTextData.cs",
+              "ToolTip": "D:\\moon-text\\MoonText\\MoonTextData.cs",
+              "RelativeToolTip": "MoonText\\MoonTextData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T18:35:47.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainFile.cs",
+              "DocumentMoniker": "D:\\moon-text\\MainFile.cs",
+              "RelativeDocumentMoniker": "MainFile.cs",
+              "ToolTip": "D:\\moon-text\\MainFile.cs",
+              "RelativeToolTip": "MainFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T18:35:04.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoonText",
+              "DocumentMoniker": "D:\\moon-text\\MoonText.csproj",
+              "RelativeDocumentMoniker": "MoonText.csproj",
+              "ToolTip": "D:\\moon-text\\MoonText.csproj*",
+              "RelativeToolTip": "MoonText.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-18T18:32:59.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
