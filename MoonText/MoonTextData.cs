@@ -9,6 +9,6 @@ namespace MoeNegiMod.MoonText
     public class MoonTextData
     {
         public string text { get; set; }
-        public float time { get; set; }
+        public float? time { get; set; }
     }
 }

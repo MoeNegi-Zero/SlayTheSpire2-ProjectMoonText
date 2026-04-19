@@ -46,8 +46,7 @@
               "RelativeToolTip": "MoonText\\MoonTextPool.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAADwvzQAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T18:36:12.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T18:36:12.051Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "MoonText\\MoonTextPatch.cs",
               "ToolTip": "D:\\moon-text\\MoonText\\MoonTextPatch.cs",
               "RelativeToolTip": "MoonText\\MoonTextPatch.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAQwKEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwDMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T18:35:59.771Z",
               "EditorCaption": ""
@@ -70,7 +69,7 @@
               "RelativeDocumentMoniker": "MoonText\\MoonTextData.cs",
               "ToolTip": "D:\\moon-text\\MoonText\\MoonTextData.cs",
               "RelativeToolTip": "MoonText\\MoonTextData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T18:35:47.567Z",
               "EditorCaption": ""
@@ -85,21 +84,19 @@
               "RelativeToolTip": "MainFile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T18:35:04.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T18:35:04.913Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MoonText",
+              "Title": "MoonText.csproj",
               "DocumentMoniker": "D:\\moon-text\\MoonText.csproj",
               "RelativeDocumentMoniker": "MoonText.csproj",
               "ToolTip": "D:\\moon-text\\MoonText.csproj",
               "RelativeToolTip": "MoonText.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-18T18:32:59.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T18:32:59.944Z"
             }
           ]
         }

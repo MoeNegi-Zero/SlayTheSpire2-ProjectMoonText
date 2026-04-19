@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.Nodes.Rooms;
 using MegaCrit.Sts2.Core.Nodes.Screens.MainMenu;
 using MoeNegiMod.MoonText;
 using System.IO;
+using System.Linq;
 using System.Text.Json;
 using Timer = Godot.Timer;
 
@@ -27,6 +28,7 @@ public static class MoonTextPatch
 		{
 			string exeDir = Path.GetDirectoryName(OS.GetExecutablePath());
 			string jsonPath = Path.Combine(exeDir, "Mods", "MoonText", "MoonTextOption.json");
+
 			if (!Directory.Exists(jsonPath))
 			{
 				jsonPath = Path.Combine(exeDir, "mods", "MoonText", "MoonTextOption.json");
@@ -55,7 +57,21 @@ public static class MoonTextPatch
 			pool._Ready(); // 初始化池
 		}
 
-		StartRandomSpawn(__instance);
+		bool hasTimeValue = moonTextArray.All(d => d.time.HasValue);
+		bool noneTimeValue = moonTextArray.All(d => !d.time.HasValue);
+
+		if (hasTimeValue)
+		{
+			StartSequentialSpawn(__instance);
+		}
+		else if (noneTimeValue)
+		{
+			StartRandomSpawn(__instance);
+		}
+		else
+		{
+			Log.Warn("[>>>MoonTextMod] JSON 内容必须全部有 time 或全部缺省", 2);
+		}
 	}
 
 	public static void StartRandomSpawn(NCombatRoom __instance)
@@ -91,7 +107,7 @@ public static class MoonTextPatch
 		{
 			if (index >= moonTextArray.Length) return;
 
-			float currentTime = moonTextArray[index].time;
+			float currentTime = (float)moonTextArray[index].time;
 
 			// 1️⃣ 找出当前时间点的所有文字
 			int batchStart = index;
@@ -106,7 +122,7 @@ public static class MoonTextPatch
 			float waitTime;
 			if (batchEnd < moonTextArray.Length)
 			{
-				float nextTime = moonTextArray[batchEnd].time;
+				float nextTime = (float)moonTextArray[batchEnd].time;
 				waitTime = nextTime - currentTime;
 			}
 			else
@@ -136,13 +152,13 @@ public static class MoonTextPatch
 			// 5️⃣ 设置下一次 Timer
 			if (index < moonTextArray.Length)
 			{
-				sequentialTimer.WaitTime = moonTextArray[index].time - currentTime;
+				sequentialTimer.WaitTime = (float)(moonTextArray[index].time - currentTime);
 				sequentialTimer.Start();
 			}
 		}
 
 		// 第一次触发时间
-		sequentialTimer.WaitTime = moonTextArray[0].time;
+		sequentialTimer.WaitTime = (float)moonTextArray[0].time;
 		sequentialTimer.Timeout += ScheduleNext;
 		sequentialTimer.Start();
 	}
